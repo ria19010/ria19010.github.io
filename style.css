@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(209, 29, 197, 0.224);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body > header {
+  display: flex;
+  height: 12vh;
+  align-items: center;  
+  justify-content: space-around;  
+}
+
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li{
+padding: 8px;
+margin: 16px;
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+#main-header {
+    background-color: rgb(246, 238, 238);
+}
+#main-footer {
+    background-color: rgb(246, 238, 238);
+    display: flex;
+}
+body > main > article {
+    margin: auto;
+}
+img {
+    border-radius 50%;
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+#footer-ul > div > li {
+   margin-left: 12px; 
+}
+#footer-ul > div > li > a{
+   text-decoration: none;
+}
